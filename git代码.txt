@@ -1,0 +1,27 @@
+$ mkdir learngit
+$ cd learngit
+$ pwd
+创建一个版本库
+
+$ git init
+通过git init命令把这个目录变成Git可以管理的仓库
+
+如果你没有看到.git目录，那是因为这个目录默认是隐藏的，用ls -ah命令就可以看见。
+
+$ git add readme.txt
+添加文件到缓存区
+
+$ git commit -m "wrote a readme file"
+把文件提交到仓库：
+
+$ git add file1.txt
+$ git add file2.txt file3.txt
+$ git commit -m "add 3 files."
+一次添加多个文件到仓库
+
+git log
+历史记录
+
+git log --pretty=oneline
+简化历史记录
+
